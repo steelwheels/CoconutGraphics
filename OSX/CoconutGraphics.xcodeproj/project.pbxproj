@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		054D36CE1A5D8A33001DC6FB /* CoconutGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 054D36CD1A5D8A33001DC6FB /* CoconutGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		055A571F1A5EC5310033A65D /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A571E1A5EC5310033A65D /* UnitTest.m */; };
+		055A57221A5EC95E0033A65D /* UTColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A57211A5EC95E0033A65D /* UTColorTable.m */; };
+		055A572A1A5EC9EC0033A65D /* CoconutGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055A57291A5EC9EC0033A65D /* CoconutGraphics.framework */; };
+		055A57391A5EDC150033A65D /* UTBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A57381A5EDC150033A65D /* UTBitmap.m */; };
 		058DA02F1A5D8B8F00DBA13B /* CNBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 058DA02D1A5D8B8F00DBA13B /* CNBitmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		058DA0301A5D8B8F00DBA13B /* CNBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 058DA02E1A5D8B8F00DBA13B /* CNBitmap.m */; };
 		058DA0321A5D8C9B00DBA13B /* CNGraphicsType.h in Headers */ = {isa = PBXBuildFile; fileRef = 058DA0311A5D8C9B00DBA13B /* CNGraphicsType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0519E7241A5EC46C003C398F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054D36BF1A5D8A33001DC6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056ABD021A5EBE8E005E9C25;
+			remoteInfo = Install;
+		};
+		055A572F1A5ECEC60033A65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054D36BF1A5D8A33001DC6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0519E71C1A5EC462003C398F;
+			remoteInfo = UnitTest;
+		};
 		056ABD061A5EBE9B005E9C25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 054D36BF1A5D8A33001DC6FB /* Project object */;
@@ -25,10 +43,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0519E71B1A5EC462003C398F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0519E71D1A5EC462003C398F /* UnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		054D36C81A5D8A33001DC6FB /* CoconutGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoconutGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		054D36CC1A5D8A33001DC6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		054D36CD1A5D8A33001DC6FB /* CoconutGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoconutGraphics.h; sourceTree = "<group>"; };
+		055A571E1A5EC5310033A65D /* UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnitTest.m; path = ../UnitTest/UnitTest.m; sourceTree = SOURCE_ROOT; };
+		055A57201A5EC5870033A65D /* UnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnitTest.h; path = ../UnitTest/UnitTest.h; sourceTree = SOURCE_ROOT; };
+		055A57211A5EC95E0033A65D /* UTColorTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UTColorTable.m; path = ../UnitTest/UTColorTable.m; sourceTree = SOURCE_ROOT; };
+		055A57291A5EC9EC0033A65D /* CoconutGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutGraphics.framework; path = ../../../Library/Frameworks/CoconutGraphics.framework; sourceTree = "<group>"; };
+		055A57381A5EDC150033A65D /* UTBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTBitmap.m; sourceTree = "<group>"; };
 		056ABD081A5EBECB005E9C25 /* install.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = install.mk; sourceTree = "<group>"; };
 		058DA02D1A5D8B8F00DBA13B /* CNBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNBitmap.h; sourceTree = "<group>"; };
 		058DA02E1A5D8B8F00DBA13B /* CNBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNBitmap.m; sourceTree = "<group>"; };
@@ -38,6 +74,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0519E71A1A5EC462003C398F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055A572A1A5EC9EC0033A65D /* CoconutGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		054D36C41A5D8A33001DC6FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,10 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0519E71E1A5EC462003C398F /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				055A57291A5EC9EC0033A65D /* CoconutGraphics.framework */,
+				055A57201A5EC5870033A65D /* UnitTest.h */,
+				055A571E1A5EC5310033A65D /* UnitTest.m */,
+				055A57211A5EC95E0033A65D /* UTColorTable.m */,
+				055A57381A5EDC150033A65D /* UTBitmap.m */,
+			);
+			name = UnitTest;
+			path = ../UnitTest;
+			sourceTree = SOURCE_ROOT;
+		};
 		054D36BE1A5D8A33001DC6FB = {
 			isa = PBXGroup;
 			children = (
 				054D36CA1A5D8A33001DC6FB /* Source */,
+				0519E71E1A5EC462003C398F /* UnitTest */,
 				054D36C91A5D8A33001DC6FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				054D36C81A5D8A33001DC6FB /* CoconutGraphics.framework */,
+				0519E71D1A5EC462003C398F /* UnitTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +164,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXLegacyTarget section */
+		055A572B1A5ECEBD0033A65D /* Check */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-f unit_test.mk";
+			buildConfigurationList = 055A572C1A5ECEBD0033A65D /* Build configuration list for PBXLegacyTarget "Check" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+				055A57301A5ECEC60033A65D /* PBXTargetDependency */,
+			);
+			name = Check;
+			passBuildSettingsInEnvironment = 1;
+			productName = Check;
+		};
 		056ABD021A5EBE8E005E9C25 /* Install */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "-f install.mk";
@@ -123,6 +197,24 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
+		0519E71C1A5EC462003C398F /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0519E7231A5EC462003C398F /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				0519E7191A5EC462003C398F /* Sources */,
+				0519E71A1A5EC462003C398F /* Frameworks */,
+				0519E71B1A5EC462003C398F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0519E7251A5EC46C003C398F /* PBXTargetDependency */,
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = 0519E71D1A5EC462003C398F /* UnitTest */;
+			productType = "com.apple.product-type.tool";
+		};
 		054D36C71A5D8A33001DC6FB /* CoconutGraphics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054D36DE1A5D8A33001DC6FB /* Build configuration list for PBXNativeTarget "CoconutGraphics" */;
@@ -150,7 +242,13 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Steel Wheels Project";
 				TargetAttributes = {
+					0519E71C1A5EC462003C398F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					054D36C71A5D8A33001DC6FB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					055A572B1A5ECEBD0033A65D = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 					056ABD021A5EBE8E005E9C25 = {
@@ -172,6 +270,8 @@
 			targets = (
 				054D36C71A5D8A33001DC6FB /* CoconutGraphics */,
 				056ABD021A5EBE8E005E9C25 /* Install */,
+				0519E71C1A5EC462003C398F /* UnitTest */,
+				055A572B1A5ECEBD0033A65D /* Check */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +287,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0519E7191A5EC462003C398F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055A57391A5EDC150033A65D /* UTBitmap.m in Sources */,
+				055A571F1A5EC5310033A65D /* UnitTest.m in Sources */,
+				055A57221A5EC95E0033A65D /* UTColorTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		054D36C31A5D8A33001DC6FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +309,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0519E7251A5EC46C003C398F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056ABD021A5EBE8E005E9C25 /* Install */;
+			targetProxy = 0519E7241A5EC46C003C398F /* PBXContainerItemProxy */;
+		};
+		055A57301A5ECEC60033A65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0519E71C1A5EC462003C398F /* UnitTest */;
+			targetProxy = 055A572F1A5ECEC60033A65D /* PBXContainerItemProxy */;
+		};
 		056ABD071A5EBE9B005E9C25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 054D36C71A5D8A33001DC6FB /* CoconutGraphics */;
@@ -207,6 +327,42 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0519E7211A5EC462003C398F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				OTHER_CFLAGS = (
+					"-W",
+					"-Wall",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0519E7221A5EC462003C398F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				OTHER_CFLAGS = (
+					"-W",
+					"-Wall",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		054D36DC1A5D8A33001DC6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -333,6 +489,31 @@
 			};
 			name = Release;
 		};
+		055A572D1A5ECEBD0033A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		055A572E1A5ECEBD0033A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		056ABD031A5EBE8E005E9C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -361,6 +542,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0519E7231A5EC462003C398F /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0519E7211A5EC462003C398F /* Debug */,
+				0519E7221A5EC462003C398F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		054D36C21A5D8A33001DC6FB /* Build configuration list for PBXProject "CoconutGraphics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -379,6 +569,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		055A572C1A5ECEBD0033A65D /* Build configuration list for PBXLegacyTarget "Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055A572D1A5ECEBD0033A65D /* Debug */,
+				055A572E1A5ECEBD0033A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		056ABD051A5EBE8E005E9C25 /* Build configuration list for PBXLegacyTarget "Install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -386,6 +584,7 @@
 				056ABD041A5EBE8E005E9C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

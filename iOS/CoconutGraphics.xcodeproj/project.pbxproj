@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056778F51A5EC2290069DA0C /* CNBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 056778F01A5EC2290069DA0C /* CNBitmap.m */; };
+		056778F61A5EC2290069DA0C /* CNColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 056778F21A5EC2290069DA0C /* CNColorTable.m */; };
+		056778FE1A5EC39D0069DA0C /* CNBitmap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 056778EF1A5EC2290069DA0C /* CNBitmap.h */; };
+		056778FF1A5EC3A10069DA0C /* CNColorTable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 056778F11A5EC2290069DA0C /* CNColorTable.h */; };
+		056779001A5EC3A50069DA0C /* CNGraphicsType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 056778F31A5EC2290069DA0C /* CNGraphicsType.h */; };
+		056779011A5EC3A90069DA0C /* CoconutGraphics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 056778F41A5EC2290069DA0C /* CoconutGraphics.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056778FC1A5EC2F90069DA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0545DCFE1A5EC1CD002DAD63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0545DD051A5EC1CD002DAD63;
+			remoteInfo = CoconutGraphics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0545DD041A5EC1CD002DAD63 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				056779011A5EC3A90069DA0C /* CoconutGraphics.h in CopyFiles */,
+				056779001A5EC3A50069DA0C /* CNGraphicsType.h in CopyFiles */,
+				056778FF1A5EC3A10069DA0C /* CNColorTable.h in CopyFiles */,
+				056778FE1A5EC39D0069DA0C /* CNBitmap.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0545DD061A5EC1CD002DAD63 /* libCoconutGraphics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoconutGraphics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		056778EF1A5EC2290069DA0C /* CNBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNBitmap.h; path = ../../Source/CNBitmap.h; sourceTree = "<group>"; };
+		056778F01A5EC2290069DA0C /* CNBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNBitmap.m; path = ../../Source/CNBitmap.m; sourceTree = "<group>"; };
+		056778F11A5EC2290069DA0C /* CNColorTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNColorTable.h; path = ../../Source/CNColorTable.h; sourceTree = "<group>"; };
+		056778F21A5EC2290069DA0C /* CNColorTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNColorTable.m; path = ../../Source/CNColorTable.m; sourceTree = "<group>"; };
+		056778F31A5EC2290069DA0C /* CNGraphicsType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNGraphicsType.h; path = ../../Source/CNGraphicsType.h; sourceTree = "<group>"; };
+		056778F41A5EC2290069DA0C /* CoconutGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoconutGraphics.h; path = ../../Source/CoconutGraphics.h; sourceTree = "<group>"; };
+		056778F71A5EC2CE0069DA0C /* install.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = install.mk; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0545DD031A5EC1CD002DAD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0545DCFD1A5EC1CD002DAD63 = {
+			isa = PBXGroup;
+			children = (
+				0545DD081A5EC1CD002DAD63 /* Source */,
+				0545DD071A5EC1CD002DAD63 /* Products */,
+				056778F71A5EC2CE0069DA0C /* install.mk */,
+			);
+			sourceTree = "<group>";
+		};
+		0545DD071A5EC1CD002DAD63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0545DD061A5EC1CD002DAD63 /* libCoconutGraphics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0545DD081A5EC1CD002DAD63 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				056778F41A5EC2290069DA0C /* CoconutGraphics.h */,
+				056778EF1A5EC2290069DA0C /* CNBitmap.h */,
+				056778F01A5EC2290069DA0C /* CNBitmap.m */,
+				056778F11A5EC2290069DA0C /* CNColorTable.h */,
+				056778F21A5EC2290069DA0C /* CNColorTable.m */,
+				056778F31A5EC2290069DA0C /* CNGraphicsType.h */,
+			);
+			name = Source;
+			path = CoconutGraphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		056778F81A5EC2ED0069DA0C /* Install */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-f install.mk";
+			buildConfigurationList = 056778F91A5EC2ED0069DA0C /* Build configuration list for PBXLegacyTarget "Install" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+				056778FD1A5EC2F90069DA0C /* PBXTargetDependency */,
+			);
+			name = Install;
+			passBuildSettingsInEnvironment = 1;
+			productName = Install;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0545DD051A5EC1CD002DAD63 /* CoconutGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0545DD1A1A5EC1CD002DAD63 /* Build configuration list for PBXNativeTarget "CoconutGraphics" */;
+			buildPhases = (
+				0545DD021A5EC1CD002DAD63 /* Sources */,
+				0545DD031A5EC1CD002DAD63 /* Frameworks */,
+				0545DD041A5EC1CD002DAD63 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoconutGraphics;
+			productName = CoconutGraphics;
+			productReference = 0545DD061A5EC1CD002DAD63 /* libCoconutGraphics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0545DCFE1A5EC1CD002DAD63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Steel Wheels Project";
+				TargetAttributes = {
+					0545DD051A5EC1CD002DAD63 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					056778F81A5EC2ED0069DA0C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0545DD011A5EC1CD002DAD63 /* Build configuration list for PBXProject "CoconutGraphics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0545DCFD1A5EC1CD002DAD63;
+			productRefGroup = 0545DD071A5EC1CD002DAD63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0545DD051A5EC1CD002DAD63 /* CoconutGraphics */,
+				056778F81A5EC2ED0069DA0C /* Install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0545DD021A5EC1CD002DAD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056778F51A5EC2290069DA0C /* CNBitmap.m in Sources */,
+				056778F61A5EC2290069DA0C /* CNColorTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056778FD1A5EC2F90069DA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0545DD051A5EC1CD002DAD63 /* CoconutGraphics */;
+			targetProxy = 056778FC1A5EC2F90069DA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0545DD181A5EC1CD002DAD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0545DD191A5EC1CD002DAD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0545DD1B1A5EC1CD002DAD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(HOME)/local/include",
+				);
+				LIBRARY_SEARCH_PATHS = "$(HOME)/local/lib";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		0545DD1C1A5EC1CD002DAD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(HOME)/local/include",
+				);
+				LIBRARY_SEARCH_PATHS = "$(HOME)/local/lib";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		056778FA1A5EC2ED0069DA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		056778FB1A5EC2ED0069DA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0545DD011A5EC1CD002DAD63 /* Build configuration list for PBXProject "CoconutGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0545DD181A5EC1CD002DAD63 /* Debug */,
+				0545DD191A5EC1CD002DAD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0545DD1A1A5EC1CD002DAD63 /* Build configuration list for PBXNativeTarget "CoconutGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0545DD1B1A5EC1CD002DAD63 /* Debug */,
+				0545DD1C1A5EC1CD002DAD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056778F91A5EC2ED0069DA0C /* Build configuration list for PBXLegacyTarget "Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056778FA1A5EC2ED0069DA0C /* Debug */,
+				056778FB1A5EC2ED0069DA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0545DCFE1A5EC1CD002DAD63 /* Project object */;
+}

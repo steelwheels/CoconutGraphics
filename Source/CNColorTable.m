@@ -7,7 +7,7 @@
 
 #import "CNColorTable.h"
 
-@interface CNColorTable (CNPrivate)
+@interface CNColorTable ()
 @property (assign, nonatomic, readwrite) NSUInteger	count ;
 @end
 

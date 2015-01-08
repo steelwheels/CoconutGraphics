@@ -7,12 +7,15 @@
 
 #import "CNBitmap.h"
 
-@interface CNBitmap (CNPrivate)
+@interface CNBitmap ()
 @property (assign, nonatomic, readwrite) NSUInteger		width ;
 @property (assign, nonatomic, readwrite) NSUInteger		height ;
 @end
 
 @implementation CNBitmap
+
+@synthesize width ;
+@synthesize height ;
 
 - (id) initWithWidth: (NSUInteger) w withHeiht: (NSUInteger) h
 {
