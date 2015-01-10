@@ -7,7 +7,7 @@
 
 #import <CoconutGraphics/CoconutGraphics.h>
 
-void UTColorTable(void) ;
+void UTColorIndexTable(void) ;
 void UTBitmap(void) ;
 
 

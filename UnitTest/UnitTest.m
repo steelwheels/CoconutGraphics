@@ -12,8 +12,8 @@ static void printTitle(const char * title) ;
 int main(int argc, const char * argv[]) {
 	(void) argc ; (void) argv ;
 	@autoreleasepool {
-		printTitle("CNColorTable") ;	UTColorTable() ;
-		printTitle("CNBitmap") ;	UTBitmap() ;
+		printTitle("CNColorIndexTable") ;	UTColorIndexTable() ;
+		printTitle("CNBitmap") ;		UTBitmap() ;
 	}
     return 0;
 }

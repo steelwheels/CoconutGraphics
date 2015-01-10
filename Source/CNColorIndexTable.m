@@ -1,17 +1,17 @@
 /**
- * @file	CNColorTable.m
- * @brief	Define CNColorTable class
+ * @file	CNColorIndexTable.m
+ * @brief	Define CNColorIndexTable class
  * @par Copyright
  *   Copyright (C) 2014 Steel Wheels Project
  */
 
-#import "CNColorTable.h"
+#import "CNColorIndexTable.h"
 
-@interface CNColorTable ()
+@interface CNColorIndexTable ()
 @property (assign, nonatomic, readwrite) NSUInteger	count ;
 @end
 
-@implementation CNColorTable
+@implementation CNColorIndexTable
 @synthesize count ;
 @synthesize rgbArray ;
 

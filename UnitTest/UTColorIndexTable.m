@@ -1,25 +1,25 @@
 /**
- * @file	UTColorTable.m
- * @brief	Unit test for CNColorTable class
+ * @file	UTColorIndexTable.m
+ * @brief	Unit test for CNColorIndexTable class
  * @par Copyright
  *   Copyright (C) 2014 Steel Wheels Project
  */
 
 #import "UnitTest.h"
 
-static void initColorTable(CNColorTable * dst) ;
-static void printColorTable(CNColorTable * src) ;
+static void initColorTable(CNColorIndexTable * dst) ;
+static void printColorTable(CNColorIndexTable * src) ;
 
 void
-UTColorTable(void)
+UTColorIndexTable(void)
 {
-	CNColorTable * table = [[CNColorTable alloc] initWithCount: 10] ;
+	CNColorIndexTable * table = [[CNColorIndexTable alloc] initWithCount: 10] ;
 	initColorTable(table) ;
 	printColorTable(table) ;
 }
 
 static void
-initColorTable(CNColorTable * dst)
+initColorTable(CNColorIndexTable * dst)
 {
 	NSUInteger	i, count = dst.count ;
 	struct CNRGB *	rgbptr = dst.rgbArray ;
@@ -34,9 +34,9 @@ initColorTable(CNColorTable * dst)
 }
 
 static void
-printColorTable(CNColorTable * src)
+printColorTable(CNColorIndexTable * src)
 {
-	puts("[ColorTable]") ;
+	puts("[ColorIndexTable]") ;
 	printf(" count : %tu\n", src.count) ;
 	
 	NSUInteger		i, count = src.count ;

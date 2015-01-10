@@ -18,7 +18,9 @@
 // In this header, you should import all the public headers of your framework using statements like #import <CoconutGraphics/PublicHeader.h>
 #import "CNGraphicsType.h"
 #import "CNBitmap.h"
-#import "CNColorTable.h"
+#import "CNColorIndexTable.h"
+#import "CNGraphicsUtil.h"
+#import "CNDebugUtil.h"
 
 
 
