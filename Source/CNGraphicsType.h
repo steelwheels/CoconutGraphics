@@ -8,12 +8,19 @@
 #ifndef CNGRAPHICSTYPE_H
 #define CNGRAPHICSTYPE_H
 
+#import <TargetConditionals.h>
+#if TARGET_OS_IPHONE
+#	import <UIKit/UIKit.h>
+#else
+#	import <AppKit/AppKit.h>
+#endif
 #import <CoreGraphics/CoreGraphics.h>
 
 struct CNRGB {
-	CGFloat		r ;
-	CGFloat		g ;
-	CGFloat		b ;
+	CGFloat		red ;
+	CGFloat		green ;
+	CGFloat		blue ;
+	CGFloat		alpha ;
 } ;
 
 #endif	/* CNGRAPHICSTYPE_H */
