@@ -36,6 +36,15 @@ CNColorToRGB(CNColor * src)
 	return result ;
 }
 
+/**
+ * @brief Compare context of CGSize objects
+ */
+static inline BOOL
+CNIsSameSize(CGSize * s0, CGSize * s1)
+{
+	return (s0->width == s1->width) && (s0->height == s0->width) ;
+}
+
 #if !defined(TARGET_OS_IPHONE)
 
 static inline void
