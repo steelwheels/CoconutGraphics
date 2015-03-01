@@ -25,6 +25,7 @@
 		058DA0321A5D8C9B00DBA13B /* CNGraphicsType.h in Headers */ = {isa = PBXBuildFile; fileRef = 058DA0311A5D8C9B00DBA13B /* CNGraphicsType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		058DA0351A5D8DAB00DBA13B /* CNColorIndexTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 058DA0331A5D8DAB00DBA13B /* CNColorIndexTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		058DA0361A5D8DAB00DBA13B /* CNColorIndexTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 058DA0341A5D8DAB00DBA13B /* CNColorIndexTable.m */; };
+		05EFE03F1A9E2F1F0023513C /* CNGraphicsFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EFE03E1A9E2F1F0023513C /* CNGraphicsFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		058DA0311A5D8C9B00DBA13B /* CNGraphicsType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNGraphicsType.h; sourceTree = "<group>"; };
 		058DA0331A5D8DAB00DBA13B /* CNColorIndexTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNColorIndexTable.h; sourceTree = "<group>"; };
 		058DA0341A5D8DAB00DBA13B /* CNColorIndexTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNColorIndexTable.m; sourceTree = "<group>"; };
+		05EFE03E1A9E2F1F0023513C /* CNGraphicsFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNGraphicsFunc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				054D36CD1A5D8A33001DC6FB /* CoconutGraphics.h */,
 				058DA0311A5D8C9B00DBA13B /* CNGraphicsType.h */,
+				05EFE03E1A9E2F1F0023513C /* CNGraphicsFunc.h */,
 				05702F411A9CBBEE006D47CF /* CNCircle.h */,
 				0534EFA51A9B8A88007BC669 /* CNGraphicsMacro.h */,
 				050A67391A60C6AA00752081 /* CNGraphicsUtil.h */,
@@ -178,6 +181,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05EFE03F1A9E2F1F0023513C /* CNGraphicsFunc.h in Headers */,
 				05702F421A9CBBEE006D47CF /* CNCircle.h in Headers */,
 				0534EFA61A9B8A88007BC669 /* CNGraphicsMacro.h in Headers */,
 				0509C5381A611DE6004F43AA /* CNColorTable.h in Headers */,
