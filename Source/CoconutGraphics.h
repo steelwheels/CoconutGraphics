@@ -23,6 +23,7 @@
 #import "CNBitmap.h"
 #import "CNColorTable.h"
 #import "CNColorIndexTable.h"
+#import "CNColorUtil.h"
 #import "CNGraphicsUtil.h"
 #import "CNDebugUtil.h"
 
