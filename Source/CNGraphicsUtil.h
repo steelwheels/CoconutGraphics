@@ -45,6 +45,14 @@ CNIsSameSize(CGSize * s0, CGSize * s1)
 	return (s0->width == s1->width) && (s0->height == s0->width) ;
 }
 
+static inline CGPoint
+CNRectGetCenter(CGRect src)
+{
+	CGFloat x = src.origin.x + (src.size.width  / 2.0) ;
+	CGFloat y = src.origin.y + (src.size.height / 2.0) ;
+	return CGPointMake(x, y) ;
+}
+
 #if !defined(TARGET_OS_IPHONE)
 
 static inline void

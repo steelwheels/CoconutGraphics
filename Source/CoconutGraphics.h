@@ -6,6 +6,8 @@
  */
 
 #import <Foundation/Foundation.h>
+#import <TargetConditionals.h>
+
 #if TARGET_OS_IPHONE
 
 #else /* TARGET_OS_IPHONE */
@@ -19,6 +21,7 @@
 #import "CNGraphicsType.h"
 #import "CNGraphicsFunc.h"
 #import "CNCircle.h"
+#import "CNHexagon.h"
 #import "CNGraphicsMacro.h"
 #import "CNBitmap.h"
 #import "CNColorTable.h"

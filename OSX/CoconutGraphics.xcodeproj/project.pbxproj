@@ -20,6 +20,8 @@
 		055A572A1A5EC9EC0033A65D /* CoconutGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055A57291A5EC9EC0033A65D /* CoconutGraphics.framework */; };
 		055A57391A5EDC150033A65D /* UTBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A57381A5EDC150033A65D /* UTBitmap.m */; };
 		05702F421A9CBBEE006D47CF /* CNCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 05702F411A9CBBEE006D47CF /* CNCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		058658061AB1DC9A002400E8 /* CNHexagon.h in Headers */ = {isa = PBXBuildFile; fileRef = 058658041AB1DC9A002400E8 /* CNHexagon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		058658071AB1DC9A002400E8 /* CNHexagon.m in Sources */ = {isa = PBXBuildFile; fileRef = 058658051AB1DC9A002400E8 /* CNHexagon.m */; };
 		058DA02F1A5D8B8F00DBA13B /* CNBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 058DA02D1A5D8B8F00DBA13B /* CNBitmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		058DA0301A5D8B8F00DBA13B /* CNBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 058DA02E1A5D8B8F00DBA13B /* CNBitmap.m */; };
 		058DA0321A5D8C9B00DBA13B /* CNGraphicsType.h in Headers */ = {isa = PBXBuildFile; fileRef = 058DA0311A5D8C9B00DBA13B /* CNGraphicsType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,6 +87,8 @@
 		055A57381A5EDC150033A65D /* UTBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTBitmap.m; sourceTree = "<group>"; };
 		056ABD081A5EBECB005E9C25 /* install.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = install.mk; sourceTree = "<group>"; };
 		05702F411A9CBBEE006D47CF /* CNCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNCircle.h; sourceTree = "<group>"; };
+		058658041AB1DC9A002400E8 /* CNHexagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNHexagon.h; sourceTree = "<group>"; };
+		058658051AB1DC9A002400E8 /* CNHexagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNHexagon.m; sourceTree = "<group>"; };
 		058DA02D1A5D8B8F00DBA13B /* CNBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNBitmap.h; sourceTree = "<group>"; };
 		058DA02E1A5D8B8F00DBA13B /* CNBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNBitmap.m; sourceTree = "<group>"; };
 		058DA0311A5D8C9B00DBA13B /* CNGraphicsType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNGraphicsType.h; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				058DA0311A5D8C9B00DBA13B /* CNGraphicsType.h */,
 				05EFE03E1A9E2F1F0023513C /* CNGraphicsFunc.h */,
 				05702F411A9CBBEE006D47CF /* CNCircle.h */,
+				058658041AB1DC9A002400E8 /* CNHexagon.h */,
+				058658051AB1DC9A002400E8 /* CNHexagon.m */,
 				0534EFA51A9B8A88007BC669 /* CNGraphicsMacro.h */,
 				050A67391A60C6AA00752081 /* CNGraphicsUtil.h */,
 				050A673A1A60C6AA00752081 /* CNGraphicsUtil.m */,
@@ -187,6 +193,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058658061AB1DC9A002400E8 /* CNHexagon.h in Headers */,
 				05EC8E751AA4C8A1001B86C7 /* CNColorUtil.h in Headers */,
 				05EFE03F1A9E2F1F0023513C /* CNGraphicsFunc.h in Headers */,
 				05702F421A9CBBEE006D47CF /* CNCircle.h in Headers */,
@@ -342,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				050A67381A60ABFE00752081 /* CNDebugUtil.m in Sources */,
+				058658071AB1DC9A002400E8 /* CNHexagon.m in Sources */,
 				058DA0301A5D8B8F00DBA13B /* CNBitmap.m in Sources */,
 				0509C5391A611DE6004F43AA /* CNColorTable.m in Sources */,
 				058DA0361A5D8DAB00DBA13B /* CNColorIndexTable.m in Sources */,
