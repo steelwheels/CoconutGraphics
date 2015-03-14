@@ -24,6 +24,7 @@
 #import "CNHexagon.h"
 #import "CNGraphicsMacro.h"
 #import "CNBitmap.h"
+#import "CNLineGradient.h"
 #import "CNColorTable.h"
 #import "CNColorIndexTable.h"
 #import "CNColorUtil.h"
