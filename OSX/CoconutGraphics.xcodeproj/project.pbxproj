@@ -20,6 +20,8 @@
 		055A572A1A5EC9EC0033A65D /* CoconutGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055A57291A5EC9EC0033A65D /* CoconutGraphics.framework */; };
 		055A57391A5EDC150033A65D /* UTBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 055A57381A5EDC150033A65D /* UTBitmap.m */; };
 		05702F421A9CBBEE006D47CF /* CNCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 05702F411A9CBBEE006D47CF /* CNCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0572DD881AB8914B00E0EF4E /* CNColorNameTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0572DD861AB8914B00E0EF4E /* CNColorNameTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0572DD891AB8914B00E0EF4E /* CNColorNameTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0572DD871AB8914B00E0EF4E /* CNColorNameTable.m */; };
 		058658061AB1DC9A002400E8 /* CNHexagon.h in Headers */ = {isa = PBXBuildFile; fileRef = 058658041AB1DC9A002400E8 /* CNHexagon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		058658071AB1DC9A002400E8 /* CNHexagon.m in Sources */ = {isa = PBXBuildFile; fileRef = 058658051AB1DC9A002400E8 /* CNHexagon.m */; };
 		058DA02F1A5D8B8F00DBA13B /* CNBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 058DA02D1A5D8B8F00DBA13B /* CNBitmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +31,7 @@
 		058DA0361A5D8DAB00DBA13B /* CNColorIndexTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 058DA0341A5D8DAB00DBA13B /* CNColorIndexTable.m */; };
 		05A2BA851AB3B7C200E2D0B3 /* CNLineGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A2BA831AB3B7C200E2D0B3 /* CNLineGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05A2BA861AB3B7C200E2D0B3 /* CNLineGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A2BA841AB3B7C200E2D0B3 /* CNLineGradient.m */; };
+		05D452C71AB9AB91003189E3 /* UTColorNameTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D452C61AB9AB91003189E3 /* UTColorNameTable.m */; };
 		05EC8E751AA4C8A1001B86C7 /* CNColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EC8E731AA4C8A1001B86C7 /* CNColorUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05EC8E761AA4C8A1001B86C7 /* CNColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EC8E741AA4C8A1001B86C7 /* CNColorUtil.m */; };
 		05EFE03F1A9E2F1F0023513C /* CNGraphicsFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EFE03E1A9E2F1F0023513C /* CNGraphicsFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -89,6 +92,8 @@
 		055A57381A5EDC150033A65D /* UTBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTBitmap.m; sourceTree = "<group>"; };
 		056ABD081A5EBECB005E9C25 /* install.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = install.mk; sourceTree = "<group>"; };
 		05702F411A9CBBEE006D47CF /* CNCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNCircle.h; sourceTree = "<group>"; };
+		0572DD861AB8914B00E0EF4E /* CNColorNameTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNColorNameTable.h; sourceTree = "<group>"; };
+		0572DD871AB8914B00E0EF4E /* CNColorNameTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNColorNameTable.m; sourceTree = "<group>"; };
 		058658041AB1DC9A002400E8 /* CNHexagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNHexagon.h; sourceTree = "<group>"; };
 		058658051AB1DC9A002400E8 /* CNHexagon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNHexagon.m; sourceTree = "<group>"; };
 		058DA02D1A5D8B8F00DBA13B /* CNBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNBitmap.h; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 		058DA0341A5D8DAB00DBA13B /* CNColorIndexTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNColorIndexTable.m; sourceTree = "<group>"; };
 		05A2BA831AB3B7C200E2D0B3 /* CNLineGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNLineGradient.h; sourceTree = "<group>"; };
 		05A2BA841AB3B7C200E2D0B3 /* CNLineGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNLineGradient.m; sourceTree = "<group>"; };
+		05D452C61AB9AB91003189E3 /* UTColorNameTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTColorNameTable.m; sourceTree = "<group>"; };
 		05EC8E731AA4C8A1001B86C7 /* CNColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNColorUtil.h; sourceTree = "<group>"; };
 		05EC8E741AA4C8A1001B86C7 /* CNColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNColorUtil.m; sourceTree = "<group>"; };
 		05EFE03E1A9E2F1F0023513C /* CNGraphicsFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNGraphicsFunc.h; sourceTree = "<group>"; };
@@ -129,6 +135,7 @@
 				055A57201A5EC5870033A65D /* UnitTest.h */,
 				055A571E1A5EC5310033A65D /* UnitTest.m */,
 				055A57211A5EC95E0033A65D /* UTColorIndexTable.m */,
+				05D452C61AB9AB91003189E3 /* UTColorNameTable.m */,
 				055A57381A5EDC150033A65D /* UTBitmap.m */,
 			);
 			name = UnitTest;
@@ -171,6 +178,8 @@
 				0509C5371A611DE6004F43AA /* CNColorTable.m */,
 				058DA0331A5D8DAB00DBA13B /* CNColorIndexTable.h */,
 				058DA0341A5D8DAB00DBA13B /* CNColorIndexTable.m */,
+				0572DD861AB8914B00E0EF4E /* CNColorNameTable.h */,
+				0572DD871AB8914B00E0EF4E /* CNColorNameTable.m */,
 				05A2BA831AB3B7C200E2D0B3 /* CNLineGradient.h */,
 				05A2BA841AB3B7C200E2D0B3 /* CNLineGradient.m */,
 				05EC8E731AA4C8A1001B86C7 /* CNColorUtil.h */,
@@ -199,6 +208,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0572DD881AB8914B00E0EF4E /* CNColorNameTable.h in Headers */,
 				05A2BA851AB3B7C200E2D0B3 /* CNLineGradient.h in Headers */,
 				058658061AB1DC9A002400E8 /* CNHexagon.h in Headers */,
 				05EC8E751AA4C8A1001B86C7 /* CNColorUtil.h in Headers */,
@@ -347,6 +357,7 @@
 			files = (
 				055A57391A5EDC150033A65D /* UTBitmap.m in Sources */,
 				055A571F1A5EC5310033A65D /* UnitTest.m in Sources */,
+				05D452C71AB9AB91003189E3 /* UTColorNameTable.m in Sources */,
 				055A57221A5EC95E0033A65D /* UTColorIndexTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +372,7 @@
 				058DA0301A5D8B8F00DBA13B /* CNBitmap.m in Sources */,
 				0509C5391A611DE6004F43AA /* CNColorTable.m in Sources */,
 				058DA0361A5D8DAB00DBA13B /* CNColorIndexTable.m in Sources */,
+				0572DD891AB8914B00E0EF4E /* CNColorNameTable.m in Sources */,
 				05EC8E761AA4C8A1001B86C7 /* CNColorUtil.m in Sources */,
 				050A673C1A60C6AA00752081 /* CNGraphicsUtil.m in Sources */,
 			);

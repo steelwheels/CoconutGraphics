@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
 	(void) argc ; (void) argv ;
 	@autoreleasepool {
 		printTitle("CNColorIndexTable") ;	UTColorIndexTable() ;
+		printTitle("CNColorNameTable") ;	UTColorNameTable() ;
 		printTitle("CNBitmap") ;		UTBitmap() ;
 	}
     return 0;
