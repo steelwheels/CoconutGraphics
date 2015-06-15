@@ -53,6 +53,28 @@ CNRectGetCenter(CGRect src)
 	return CGPointMake(x, y) ;
 }
 
+#if defined(TARGET_OS_IPHONE)
+static inline CGPoint
+CNMiddlePoint(CGPoint p0, CGPoint p1)
+{
+	CGPoint result = {
+		.x = (p0.x + p1.x) / 2.0,
+		.y = (p0.y + p1.y) / 2.0
+	} ;
+	return result ;
+}
+#else
+static inline NSPoint
+CNMiddlePoint(NSPoint p0, NSPoint p1)
+{
+	NSPoint result = {
+		.x = (p0.x + p1.x) / 2.0,
+		.y = (p0.y + p1.y) / 2.0
+	} ;
+	return result ;
+}
+#endif
+
 #if !defined(TARGET_OS_IPHONE)
 
 static inline void
